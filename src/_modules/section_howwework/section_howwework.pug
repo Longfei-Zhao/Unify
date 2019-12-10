@@ -1,0 +1,24 @@
+block section_howwework
+  .section.section-howwework#section-howwework
+    .container-fluid
+      h2 How we work
+      p.subtitle An overview of our implementation plan
+      p 
+        | EY will be delivering the project using our 
+        span EY Hybrid Agile methodology
+        | , which is a variant of agile and aligns with the Microsoft SureStep approach.  We will be working in two week sprints from the start.  We will be designing and configuring the Core Requirements as needed while we design, configure and test each application.
+      .row.line(data-aos="animation")
+        each val, index in ['Child Safety Reporting & Intake', 'YJ Court Support', 'Placement System', 'Therapeutic Services', 'Child Safety Court Support', 'Multi-Agency Collaborations', 'YJ Restorative Justice']
+          .circle
+            svg(width="100%" height="100%" viewBox="0 0 42 42" class="donut")
+              circle(class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="#392D4F")
+              circle(class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#89868F" stroke-width="3")
+              circle(class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#FFE600" stroke-width="3")
+            p 
+              | #{index+1}
+              br
+              | #{val}
+            span - Core Requirement #{index+1}
+      .row.flow
+        img.pc(src="images/section_howWeWork/flow.png")
+        img.mobile(src="images/section_howWeWork/flow_mobile.png")

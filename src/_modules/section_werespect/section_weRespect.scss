@@ -1,0 +1,17 @@
+// section_werespect styles
+.section_weRespect {
+
+
+
+  h2 {
+    margin-bottom: 40px;
+  }
+
+  p {
+    @include font(18);
+
+    &.content {
+      font-weight: 100;
+    }
+  }
+}

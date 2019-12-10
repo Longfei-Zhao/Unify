@@ -1,0 +1,136 @@
+.section-whoWeare {
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 40px;
+    padding: 20px;
+
+
+    .cover {
+      border-radius: 2px;
+      background: rgba(57, 45, 79, 0.87);
+      box-shadow: 0 14px 28px rgba(57, 45, 79, 0.4), 0 10px 10px rgba(57, 45, 79, 0.22);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 50px;
+      }
+
+      p {
+        @include font(20);
+        color: white;
+        text-decoration: none;
+        margin-top: 20px;
+      }
+    }
+
+    &:hover {
+      .cover {
+        display: flex;
+      }
+
+      .name::after {
+        content: none;
+      }
+    }
+  }
+
+  .profile {
+    width: 120px;
+    height: 120px;
+    background: url('../images/section_whoWeAre/bg.png');
+    background-size: cover;
+    text-align: center;
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+      border: 10px solid rgba(0, 0, 0, 0);
+      object-fit: cover;
+    }
+  }
+
+  .description {
+    @include font(18);
+    font-weight: 100;
+  }
+
+  .name {
+    @include font(24);
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 0;
+    position: relative;
+
+    &:after {
+      content: "";
+      display: block;
+      width: 65px;
+      height: 2px;
+      background: #979797;
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      margin-left: -32.5px;
+    }
+  }
+
+  .role {
+    @include font(20);
+    font-weight: 100;
+    margin-top: 0;
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-size: 50px 50px;
+    }
+  }
+
+  .slick-prev {
+    left: -30px;
+
+    &:before {
+      background-image: url("../images/section_whoWeAre/arrow_left.png");
+    }
+  }
+
+  .slick-next {
+    right: -30px;
+
+    &:before {
+      background-image: url("../images/section_whoWeAre/arrow_right.png");
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+@import 'node_modules/normalize.css/normalize';
+@import "_variables/__includes.scss";
+@import "_typography/__includes.scss";
+@import "_mixins/__includes.scss";
+@import "_component/__includes.scss";
+
+@import 'node_modules/normalize.css/normalize';
+
+@import 'node_modules/flexboxgrid/css/flexboxgrid';
+@import 'node_modules/aos/dist/aos';
+@import 'node_modules/animate.css/animate';
+@import 'node_modules/slick-carousel/slick/slick.scss';
+
+@import '../_modules/common/common';
+@import '../_modules/header/header';
+@import '../_modules/banner/banner';
+@import '../_modules/section_werespect/section_weRespect';
+@import '../_modules/section_whyey/section_whyEY';
+@import '../_modules/section_whoweare/section_whoWeAre';
+@import '../_modules/section_howwework/section_howwework';
+@import '../_modules/section_ourwork/section_ourwork';
+
+@import '../_modules/footer/footer';

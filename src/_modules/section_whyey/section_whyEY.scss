@@ -1,0 +1,137 @@
+.section_whyEY {
+  color: #2E2E38;
+  text-align: center;
+
+  .container-fluid {
+    p.content {
+      @include font(20);
+      margin-bottom: 40px;
+    }
+
+    span {
+      font-weight: 100;
+    }
+
+    img.arrow {
+      width: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      text-align: left;
+      @include font(24);
+      font-weight: bold;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    p.col {
+      text-align: left;
+      @include font(18);
+      font-weight: 100;
+      padding-left: 15px;
+      position: relative;
+
+      &:before {
+        display: block;
+        content: "";
+        width: 11px;
+        height: 8px;
+        background-image: url('../images/section_whyEY/Triangle.png');
+        background-size: 11px 8px;
+        position: absolute;
+        left: 0;
+        top: 5px;
+      }
+    }
+
+    .basketball {
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  .container {
+    .right {
+      background: rgba(248, 248, 249, 1);
+      @media screen and (max-width: 768px) {
+        padding-top: 180px!important;
+      }
+    }
+
+    .left {
+      background: rgba(255, 253, 239, 1);
+      @media screen and (max-width: 768px) {
+        padding-bottom: 180px!important;
+      }
+    }
+
+    .left,
+    .right {
+      padding: 50px 0;
+
+      img {
+        height: 70px;
+      }
+
+      h4 {
+        @include font(20);
+      }
+
+      p {
+        max-width: 350px;
+        margin: 0 auto;
+        @include font(18);
+        font-weight: 100;
+      }
+    }
+
+    img.circle {
+      width: 300px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -150px;
+      margin-left: -150px;
+
+      &.aos-animate {
+        animation-name: rotate;
+        animation-timing-function: linear;
+      }
+      @media screen and (max-width: 768px) {
+        transform: rotate(-90deg);
+      }
+    }
+
+    p.center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      @include font(30);
+      font-weight: bold;
+    }
+
+    // img.circle,
+    // p.center {
+    //   @media screen and (max-width: 1300px) {
+    //     display: none;
+    //   }
+    // }
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, 0);
+  }
+
+  to {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}

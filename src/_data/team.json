@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Kate Hillman",
+        "role": "Client service partner",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/kate-hillman-11007040/"
+    },
+    {
+        "name": "Kurt Solarte",
+        "role": "Engagement partner",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/ksolarte"
+    },
+    {
+        "name": "Rohan Barrett",
+        "role": "Project director",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/rohan-barrett-a41b304b/"
+    },
+    {
+        "name": "Shailesh Joshi",
+        "role": "EY Dynamics Lead",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/shailesh-joshi-a500971/"
+    },
+    {
+        "name": "Andrea Lauchs",
+        "role": "Business Analyst",
+        "description": "",
+        "link": "https://www.linkedin.com/in/andrea-lauchs-237a9823/"
+    },
+    {
+        "name": "Andrew Garner",
+        "role": "Service Quality Assurance Partner",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/andrew-garner-6b5721119/"
+    },
+    {
+        "name": "Anna Hynek",
+        "role": "Engagement manager",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/anna-hynek-027597/"
+    },
+    {
+        "name": "Chris Ohehir",
+        "role": "SME",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/chris-ohehir-4812345/?originalSubdomain=au"
+    },
+    {
+        "name": "Jenny Parker",
+        "role": "SME",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/parkerjenny1/"
+    },
+    {
+        "name": "Justin Kilimnik",
+        "role": "Architect",
+        "description": "A brief introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit,elit",
+        "link": "https://www.linkedin.com/in/justink/"
+    }
+]

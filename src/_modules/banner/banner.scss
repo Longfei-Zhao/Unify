@@ -1,0 +1,54 @@
+.banner {
+  background-image: url('../images/banner/bg.png');
+  background-size: cover;
+  background-position: center center;
+  color: #2E2E38;
+  padding: 150px 0 50px 0;
+
+
+
+  p {
+    @include font(20);
+
+    &.first {
+      font-weight: bold;
+    }
+  }
+
+  h1 {
+    max-width: 650px;
+    @include font(40);
+    margin: 15px 0;
+  }
+
+  a {
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #392D4F;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    @include font(18);
+
+  }
+
+  @media (max-width: 998px) {
+    background-image: url('../images/banner/mobile_bg.png');
+    background-position: 100% center;
+
+    h1 {
+      @include font(20);
+    }
+
+    p {
+      @include font(16);
+      &.second {
+        color: white;
+      }
+    }
+
+    a {
+      display: none;
+    }
+  }
+}

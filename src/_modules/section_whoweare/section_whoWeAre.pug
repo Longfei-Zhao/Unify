@@ -1,0 +1,17 @@
+block section_whoWeare
+  .section.section-whoWeare#section-whoWeare
+    .container-fluid
+      h2 Who We Are
+      p.subtitle People you can trust
+      .slick(data-slick='{"slidesToShow": 3, "slidesToScroll": 1}')
+        each item in site.data.team
+          .slick-item
+            .item
+              a(href=item.link target="_blank").cover
+                img(src="images/section_whoWeAre/icon_linkedin.png")
+                p View LinkedIn >
+              .profile
+                img(src="images/section_whoWeAre/" + item.name + ".jpg")
+              p.description= item.description
+              p.name= item.name
+              p.role= item.role
