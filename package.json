@@ -5,7 +5,7 @@
     "animate.css": "^3.7.2",
     "aos": "^2.3.4",
     "flexboxgrid": "^6.3.1",
-    "jquery": "~3.4.1",
+    "jquery": "~3.5.0",
     "normalize.css": "~8.0.1",
     "slick-carousel": "^1.8.1",
     "smooth-scroll": "^16.1.0"
