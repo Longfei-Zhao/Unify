@@ -11,7 +11,7 @@
     "smooth-scroll": "^16.1.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.0.0",
+    "@babel/core": "~7.20.12",
     "@babel/preset-env": "~7.0.0",
     "@babel/register": "~7.4.4",
     "autoprefixer": "~9.6.1",
